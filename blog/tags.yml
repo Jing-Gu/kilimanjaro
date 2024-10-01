@@ -1,19 +1,29 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+家庭:
+  label: 家庭
+  permalink: /家庭
+  description: 家庭 tag description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+育儿:
+  label: 育儿
+  permalink: /育儿
+  description: 育儿 tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+随感:
+  label: 随感
+  permalink: /随感
+  description: 随感 tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+友谊:
+  label: 友谊
+  permalink: /友谊
+  description: 友谊 tag description
+
+旅行:
+  label: 旅行
+  permalink: /旅行
+  description: 旅行 tag description
+
+Montreal:
+  label: Montreal
+  permalink: /montreal
+  description: Montreal tag description

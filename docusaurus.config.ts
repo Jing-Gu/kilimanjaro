@@ -32,28 +32,32 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
+/*         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           showLastUpdateTime: false,
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/jing-gu/kilimanjaro',
-        },
-/*         blog: {
+        }, */
+        docs: false,
+        blog: {
+          routeBasePath: '/',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/jing-gu/kilimanjaro',
+/*           editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/', */
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-        }, */
+          blogSidebarTitle: '**********',
+          blogSidebarCount: 'ALL',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -66,18 +70,18 @@ const config: Config = {
     //image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Kilimanjaro',
-/*       logo: {
+      logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      }, */
+        src: 'img/logo.png',
+      },
       items: [
-        {
+/*         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: '去一个陌生的地方',
-        },
-        /* {to: '/blog', label: 'Blog', position: 'left'}, */
+        }, */
+        {to: '/', label: '去一个陌生的地方', position: 'left'},
 /*         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
