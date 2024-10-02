@@ -4,7 +4,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Kilimanjaro',
-  tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   url: 'https://www.jinggu.dev',
@@ -58,6 +57,18 @@ const config: Config = {
           blogSidebarTitle: '**********',
           blogSidebarCount: 'ALL',
         },
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '',
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
+          mdxPageComponent: '@theme/MDXPage',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -71,7 +82,7 @@ const config: Config = {
     navbar: {
       title: 'Kilimanjaro',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'jgu logo',
         src: 'img/logo.png',
       },
       items: [
@@ -82,6 +93,7 @@ const config: Config = {
           label: '去一个陌生的地方',
         }, */
         {to: '/', label: '去一个陌生的地方', position: 'left'},
+        {to: '/aboutme', label: 'About me', position: 'right'},
 /*         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -90,49 +102,8 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
-/*       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ], */
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      style: 'light',
+      copyright: `Copyright © ${new Date().getFullYear()} | Kilimanjaro Blog (Built with Docusaurus)`,
     },
     prism: {
       theme: prismThemes.github,
