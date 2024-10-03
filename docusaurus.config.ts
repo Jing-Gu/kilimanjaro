@@ -54,7 +54,7 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          blogSidebarTitle: '**********',
+          blogSidebarTitle: '≧◉◡◉≦',
           blogSidebarCount: 'ALL',
         },
         pages: {
@@ -93,7 +93,7 @@ const config: Config = {
           label: '去一个陌生的地方',
         }, */
         {to: '/', label: '去一个陌生的地方', position: 'left'},
-        {to: '/aboutme', label: 'About me', position: 'right'},
+        {to: '/aboutme', label: 'About me (•◡•) /', position: 'right'},
 /*         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
