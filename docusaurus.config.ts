@@ -15,6 +15,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jing-gu', // Usually your GitHub org/user name.
   projectName: 'kilimanjaro', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
