@@ -1,33 +1,8 @@
-# Website
+# Kilimanjaro Blog
+
+> [!IMPORTANT]
+> The deployment pipeline is done with github action, see `deploy.yml`. Just push to `master` as usual and built files will be pushed to `gh-pages`, which will then trigger the gh-page deployment.
+
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Installation
-
-```
-npm install
-```
-
-### Local Development
-
-```
-npm start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-npm build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-npm run deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
