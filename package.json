@@ -8,7 +8,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "deploy:gh-page": "git checkout gh-page && git merge master && git push",
+    "deploy:gh-page": "npm run build && git add . && git commit -m 'Deploy website' && git push origin master:gh-pages",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
