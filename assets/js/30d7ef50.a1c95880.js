@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkilimanjaro=self.webpackChunkkilimanjaro||[]).push([[6883],{8952:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/kilimanjaro/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":11,"previousPage":"/kilimanjaro/","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
